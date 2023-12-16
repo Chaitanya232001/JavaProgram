@@ -1,13 +1,11 @@
-package com.practice;
+//DayOfWeek program by using if else
 
 import java.util.Scanner;
-
-public class DayOfWeek {
+public class DayOfWeekWithIfElse {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scan=new Scanner(System.in);
-		System.out.println("day");
+		System.out.println("Enter the number to display Day?:");
 		int day=scan.nextInt();
 		if (day ==1)
 			System.out.println("Monday");
@@ -25,6 +23,6 @@ public class DayOfWeek {
 			System.out.println("Sunday");
 		else 
 			System.out.println("Invalid Option");
+			  scan.close();
 	}
-
 }

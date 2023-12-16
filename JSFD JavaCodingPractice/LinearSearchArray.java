@@ -1,7 +1,4 @@
-package com.practice;
-
 import java.util.Scanner;
-
 public class LinearSearchArray {
 
     public static void main(String[] args) {

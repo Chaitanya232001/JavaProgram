@@ -1,7 +1,5 @@
-package com.practice;
 
 import java.util.Scanner;
-
 public class GuessingNum {
 
     public static void main(String[] args) {
@@ -18,5 +16,6 @@ public class GuessingNum {
         } else {
             System.out.println("You are close to the guessed number, but it's lower.");
         }
+        scan.close();
     }
 }

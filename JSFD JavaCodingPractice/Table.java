@@ -1,5 +1,3 @@
-package com.practice;
-
 public class Table {
 
     public static void main(String[] args) {
